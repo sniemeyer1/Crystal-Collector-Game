@@ -1,0 +1,16 @@
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-color: #CACBD5;
+    
+}
+
+
+.crystal {
+    border: 1px solid;
+    border-color: #CACBD5;
+    height: 300px;
+    width: 300px;
+}
