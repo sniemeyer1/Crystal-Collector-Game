@@ -1,16 +1,57 @@
-.crystals {
+body {
+    background-color: #38394F;
+    text-align: center;
+    border: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: #38394F;
+    border: 0;
+}
+
+.card-header {
+    background-color: #AE42BA;
+
+}
+
+#heading {
+    font-family: 'Metamorphous', cursive;
+    font-size: 60px;
+    color: #AE42BA;
+    background-color: #38394F;
+}
+
+.fa-gem {
+    color: #AEDCBA;
+}
+
+.card-text {
+    font-family: 'Metamorphous', cursive;
+    font-size: 60px;
+    color: #AE42BA;
+}
+
+.card-header {
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    line-height: 150%;
+    color: #F5E6FF;
+}
+
+#instructions {
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    line-height: 150%;
+    color: #F5E6FF;
+}
+
+#crystals {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid;
-    border-color: #CACBD5;
-    
-}
-
-
-.crystal {
-    border: 1px solid;
-    border-color: #CACBD5;
-    height: 300px;
-    width: 300px;
 }
